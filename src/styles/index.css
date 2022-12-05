@@ -122,21 +122,16 @@
 
 @media(min-width: 768px){
     .section__block--frontend, .section__block--backend{
-        display: flex;
-        gap: 1.6rem;
         flex-wrap: wrap;
-        max-width: 1113px;
         overflow-x: hidden;
     }
 
     .section__frontend, .section__backend{
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        margin: 0 110px;
+        margin: 0 190px auto;
     }
 
     .section__tittle{
-        align-self: start
+        align-self: flex-start
     }
 }
