@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <script src="./src/scripts/database.js" defer></script>
+    <script src="./src/scripts/index.js" defer></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+    <title>Speed Job</title>
+
+</head>
+<body>
+    <header class="header__container">
+        <h1 class="header__title">Speed <span class="header_title--extra">Job</span></h1>
+        <p class="header__description">Encontre a vaga que mais se parece com você</p>
+        <div class="header__button--container">
+            <button class="header__button">Vagas Frontend</button>
+            <button class="header__button">Vagas Backend</button>
+        </div>
+    </header>
+    <main class="main__container">
+        <section class="section__frontend">
+            <h2 class="section__tittle">Frontend Jobs</h2>
+            <div class="section__block--frontend"></div>
+        </section>
+        <section class="section__backend">
+            <h2 class="section__tittle">Backend Jobs</h2>
+            <div class="section__block--backend"></div>
+        </section>
+    </main>
+</body>
+</html>
